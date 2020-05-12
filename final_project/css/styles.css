@@ -1,0 +1,497 @@
+* {
+  margin: 0;
+ }
+html,
+body {
+  height: 100%;
+  width: 100%;
+  
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "X-Files";
+  margin-right: 40px;
+  font-size: 35px;
+  padding-left: 10px;
+  color: white;
+  text-transform: capitalize;
+  zoom: 95%
+}
+.links {
+  float: right;
+  margin-top: 50px;
+  zoom: 90%
+}
+.black {
+  width: 100%;
+  height: 115px;
+  background-color: black;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  zoom: 90%
+}
+
+section {
+  min-height: 100%;
+  width: 100%;
+}
+a:hover {
+  color: #13EEF4;
+}
+/** Home Page **/
+#home {
+  width: 100%;
+  height: 100%
+  align-items: center;
+  justify-content: center;
+}
+.background {
+  width: 100%;
+  height: 794px;
+  background-image: url(../images/b1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 115px;
+  zoom: 90%
+}
+
+.a {
+  font-family: "street cred";
+  color: #15cee3;
+  font-size: 200px;
+  font-weight: 300;
+  margin-left: 30px;
+  zoom: 90%
+}
+.ring {
+  width: 360px;
+  height: 480px;
+  content: url(../images/ring.jpg);
+  margin-top: -480px;
+  zoom: 90%
+}
+
+.hello {
+  width: 100%;
+  height: 376px;
+  background-color: #13eef4;
+  margin-top: -270px;
+  zoom: 90%
+}
+p {
+  color: #554b53;
+  font-family: "Rondalo";
+  font-size: 35px;
+  text-align: center;
+  margin-left: 180px;
+  margin-top: -250px;
+  zoom: 90%
+}
+
+/** About Page **/
+#about {
+  width: 100%;
+  height: 966px;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.background2 {
+  width: 100%;
+  height: 977px;
+  background-image: url(../images/aboutBackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  zoom: 90%
+
+}
+#about h1 {
+  font-family: "skinny";
+  font-size: 90px;
+  color: #f6f3f4;
+  font-weight: 300;
+  margin-left: 50px;
+  margin-top: 80px !important;
+  zoom: 90%
+}
+#about p {
+  width: 388px;
+  /**height: 282px;**/
+  font-family: "Candara";
+  font-size: 35px;
+  color: white;
+  text-align: left;
+  margin-top: 110px;
+  margin-left: 35px;
+  zoom: 90%
+}
+
+#about h2 {
+  font-family: "Javanese Text";
+  font-size: 60px;
+  color: white;
+  text-align: right;
+  margin-right: 60px;
+  margin-top: -40px;
+  zoom: 90%
+}
+
+.languages {
+  width: 20%;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 1480px;
+  margin-top: -230px;
+  zoom: 90%
+}
+
+.html {
+  content: url(../images/html.png);
+  zoom: 90%
+}
+
+.css {
+  content: url(../images/css.png);
+  margin-left: 180px;
+  margin-top: -145px;
+  zoom: 90%
+}
+
+.photoshop {
+  content: url(../images/photoshop.png);
+  margin-top: 50px;
+  zoom: 90%
+}
+
+.cpp {
+  content: url(../images/c++.png);
+  margin-top: -135px;
+  margin-left: 140px;
+  zoom: 90%
+}
+
+.python {
+  content: url(../images/python.png);
+  margin-left: 20px;
+  zoom: 90%
+}
+
+/** Contact Page **/
+
+#contact {
+  width: 100%;
+  height: 968px;
+  align-items: center;
+  justify-content: center;
+}
+.background3 {
+  width: 100%;
+  height: 807px;
+  background-image: url(../images/contactwall.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  zoom: 90%
+}
+.c {
+  font-family: "Rondalo";
+  font-size: 80px;
+  color: #707070;
+  text-align: center;
+  margin-top: 50px;
+  zoom: 90%
+}
+
+
+.container {
+  margin-top: 60px;
+  align-items: center;
+  zoom: 90%
+}
+
+
+.name {
+  background-color: #ffffff;
+  border-width: 55px;
+  color: #707070;
+  width: 334px;
+  height: 74px;
+  font-size: 30px;
+  font-family: "Rondalo";
+  zoom: 90%
+}
+
+
+::-webkit-input-placeholder {
+  color: #707070;
+  font-size: 30px;
+  font-family: "Rondalo";
+  zoom: 90%
+}
+
+.email {
+  background-color: #ffffff;
+  border-width: 15px;
+  color: #707070;
+  width: 334px;
+  height: 74px;
+  font-size: 30px;
+  font-family: "Rondalo";
+  zoom: 90%
+}
+
+
+.phone {
+  background-color: #ffffff;
+  border-width: 15px;
+  color: #707070;
+  width: 334px;
+  height: 74px;
+  font-size: 30px;
+  font-family: "Rondalo";
+  zoom: 90%
+}
+
+
+.message {
+  background-color: #ffffff;
+  border-width: 15px;
+  color: #707070;
+  height: 157px;
+  width: 500px;
+  font-size: 30px;
+  font-family: "Rondalo";
+  zoom: 90%
+}
+
+
+.submit {
+  border-radius: 5px;
+  border-width: 15px;
+  zoom: 90%
+}
+
+.entry {
+  display: block;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  zoom: 90%
+}
+
+.submit {
+  border-radius: 5px;
+  width: 184px;
+  height: 50px;
+  color: #707070;
+  background-color: #ffffff;
+  border-width: 15px;
+  font-size: 25px;
+  font-family: "Rondalo";
+  zoom: 90%
+}
+
+/** bottom part of contact page **/
+.bottom {
+  width: 100%;
+  height: 157px;
+  background-color: #d1eaf8;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  zoom: 90%
+}
+
+.ig {
+  content: url(../images/instagram.png);
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  zoom: 90%
+}
+.mail {
+  content: url(../images/mail.png);
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  zoom: 90%
+}
+
+.fb {
+  content: url(../images/facebook.png);
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  zoom: 90%
+}
+
+/** projects page **/
+#projects {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  zoom: 90%
+}
+
+.background4 {
+  width: 100%;
+  background-color: #3A3D42;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   zoom: 90%
+}
+.d {
+  font-family: "Skinny";
+  font-size: 80px;
+  color: white;
+  font-weight: 200;
+text-align: center;
+zoom: 90%
+
+}
+
+/** assignments **/
+
+.assignments {
+  widows: 930px;
+  height: 167px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align: center;
+zoom: 90%
+}
+.assignments2 {
+  widows: 930px;
+  height: 167px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align: center;
+zoom: 90%
+}
+.assignments3 {
+  widows: 250px;
+  height: 167px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align: center;
+zoom: 90%
+}
+
+
+.one{
+  content: url(../images/1.jpg);
+  width: 250px;
+  height: 166px;
+  margin-left: 85px;
+  zoom: 90%
+}
+
+.two{
+  content: url(../images/2.jpg);
+  width: 250px;
+  height: 166px;
+  margin-left: 85px;
+  zoom: 90%
+}
+
+.three{
+  content: url(../images/3.jpg);
+  width: 250px;
+  height: 166px;
+  margin-left: 85px;
+  zoom: 90%
+}
+
+.four{
+  content: url(../images/4.jpg);
+  width: 250px;
+  height: 166px;
+  margin-left: 85px;
+  zoom: 90%
+}
+
+.five{
+  content: url(../images/5.jpg);
+  width: 250px;
+  height: 166px;
+  margin-left: 85px;
+  zoom: 90%
+}
+
+.six{
+  content: url(../images/6.jpg);
+  width: 250px;
+  height: 166px;
+  margin-left: 85px;
+  zoom: 90%
+}
+
+.eight{
+  content: url(../images/8.jpg);
+  width: 250px;
+  height: 166px;
+  margin-left: 85px;
+  zoom: 90%
+}
+
+.caption {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top: 140px;
+  text-align: center;
+  zoom: 90%
+}
+
+.caption2 {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top: 140px;
+  text-align: center;
+  zoom: 90%
+}
+ .caption3 {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 140px;
+    text-align: center;
+    zoom: 90%
+}
+      
+
+.projects p {
+  color: #ffffff;
+  font-family: "Stencil";
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  zoom: 90%
+}
+
+footer p{
+  color: white;
+  font-family: "Source Code Pro";
+  font-size: 25px;
+  text-align: right;
+  margin-right: 40px;
+  margin-top: -50px; 
+  zoom: 90%
+}
